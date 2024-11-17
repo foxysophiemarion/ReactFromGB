@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Message from './component/Message';
 import CommentsList from './component/CommentList';
-import TemperatureConverter from './component/TemperatureConverter'; // Импорт температурного конвертера
+import TemperatureConverter from './component/TemperatureConverter';
 import TodoList from './component/TodoList';
 
 
