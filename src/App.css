@@ -1,0 +1,184 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	display: inline-block;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	color: #2e2b2b;
+	line-height: 1;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	/*text-rendering: optimizeLegibility;*/
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+input,
+textarea {
+	width: 100%;
+}
+
+label {
+	display: inline-block;
+}
+
+button,
+select,
+option {
+	cursor: pointer;
+}
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+.App {
+	min-height: 100vh;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.App p:first-child {
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+.App p:nth-child(2) {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.App p {
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 24px;
+}
+
+.App img {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+.btn {
+	color: #fff;
+	padding: 10px 15px;
+	background-color: #312e2e;
+	border-radius: 20px;
+	transition: box-shadow 0.3s;
+}
+
+.btn:hover {
+	box-shadow: 0 0 5px #312e2e;
+}
+
+.subtitle {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.hw-3 {
+	margin-top: 50px;
+
+}
+
+.hw-3 h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.hw-3__body {
+	margin-bottom: 30px;
+}
+
+.flex-body {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+	justify-content: space-between;
+}
